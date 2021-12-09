@@ -1,0 +1,221 @@
+* {box-sizing: border-box}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  overflow: auto;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+body { background-color: #fcfdfc;
+    color:#000000;
+    font-family: Verdana;
+    }
+
+
+  nav {text-align: right;font-weight: bold;}    
+
+h1       { background-color: #237753; 
+color: #000000; text-align: center;
+line-height: 200%;
+ font-family: Verdana;
+}
+
+h2{
+text-align: center;
+    padding-left: 3em;
+    padding-right: 2em;
+    color: #283836;
+    font-weight: bold;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+h3 { 
+text-align: center;
+font-size: 1.2em;
+padding-left: 3em;
+padding-right: 2em;
+padding-bottom: .25em;
+}
+
+
+h4 { 
+font-size: 1.2em;
+padding-left: 3em;
+padding-right: 2em;
+padding-bottom: .25em;
+}
+
+ body {  
+
+  background: #fcfdfc; 
+
+}
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+}
+
+
+
+
+
+}
+td, th {padding: 10px;}
+tr:nth-of-type(odd) { background-color: #D2B48E; 
+}
+.details {padding-left:5%;
+padding-right:10%;
+overflow: auto;
+}
+form     {padding: 2em;}
+label    {text-align: center; 
+display: block; 
+
+width: 8em; 
+padding-right: 1em; }
+input,textarea    {display: block; 
+margin-bottom: 1em;}
+#mysubmiit    {margin-left: 9.5em;}
+#herojobs     {display: none;}    
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+body {
+    font-family: "Verdana";
+    background-color: #fdfdfd;
+    color: #fdfdfd;
+}
+
+.card {
+    max-width: 400px;
+    
+    margin: 150px auto 0;
+    background-color: #42515a;
+    box-shadow: 0 10px 90px #00000024;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.card .card-header {
+    position: relative;
+    height: 58px;
+}
+
+.card .card-header .profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #0c3f19;
+    box-shadow: 0 0 20px #00000033;
+}
+
+.card .card-header .profile-img:hover {
+    width: 180px;
+    height: 180px;
+    border: 8px solid #19501e;
+}
+
+.card .card-body {
+    padding: 10px  30px;
+}
+
+.card .card-body .name {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0b492c;
+}
+
+.card .card-body .name:hover {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #47886a;
+}
+
+.card .card-body .mail {
+    font-size: 10px;
+    color: #c2bdbd;
+}
+
+.card .card-body .mail:hover {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.card .card-body .job {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.card .card-footer {
+    background-color: #052e1d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px 0 20px 0;
+}
+
+.card .card-footer .count {
+    font-size: 14px;
+}
+
+
+                
+#wrapper { width: 80%;
+margin-center: auto;
+margin-center: auto;}
+table    {margin: auto;
+border: 1px;
+border: 5px solid #000066;
+width: 90%;
+border-spacing: 0px;
+}
+
+
+footer   { background-color: #28632d; 
+color: #221811;
+font-size: .60em;
+font-style: italic;
+text-align: right;    }    
